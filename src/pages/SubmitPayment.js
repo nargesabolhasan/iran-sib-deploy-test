@@ -75,7 +75,7 @@ const SubmitPayment = () => {
   //-----------Authentication :-----------
   const Authentication = async (input) => {
     dispatch(setcustomer(input));
-    window.location.href = "http://127.0.0.1:5500/paymentHTML/index.html";
+    window.location.href = "https://iransib-payment.onrender.com/";
   };
 
   //----------------
